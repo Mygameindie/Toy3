@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dress-Up Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="loading-screen">
+    <div class="spinner"></div>
+    <p>Loading...</p>
+  </div>
+
+  <div class="main-menu">
+    <img src="game-images/Mainmenu.png" alt="Main Menu">
+    <button onclick="enterGame()">Play</button>
+  </div>
+
+  <div class="game-container">
+    <div class="stage">
+      <div class="char-wrap" id="char1" data-char="1" data-gender="girl">
+        <img class="base-img" id="base1" src="game-images/base1.png" alt="Character 1">
+        <button class="belly-btn" data-char="<img class="base-img" id="base1" src="game-images/base1.png" alt="Character 1"></button>
+        <!-- Default visible items for girl: topunderwear + bottomunderwear -->
+        <img id="bottomunderwear1_1.png" src="game-images/bottomunderwear1_1.png" class="bottomunderwear1" alt="Bottom Underwear 1 Item 1"
+             style="visibility:visible;position:absolute;top:0;left:0;width:100%;height:auto;pointer-events:none;z-index:30;">
+        <img id="topunderwear1_1.png" src="game-images/topunderwear1_1.png" class="topunderwear1" alt="Top Underwear 1 Item 1"
+             style="visibility:visible;position:absolute;top:0;left:0;width:100%;height:auto;pointer-events:none;z-index:40;">
+      </div>
+      <div class="char-wrap" id="char2" data-char="2" data-gender="boy">
+        <img class="base-img" id="base2" src="game-images/base2.png" alt="Character 2">
+        <button class="belly-btn" data-char="2"></button>
+        <!-- Default visible items for boy: bottomunderwear + boxers -->
+        <img id="bottomunderwear2_1.png" src="game-images/bottomunderwear2_1.png" class="bottomunderwear2" alt="Bottom Underwear 2 Item 1"
+             style="visibility:visible;position:absolute;top:0;left:0;width:100%;height:auto;pointer-events:none;z-index:30;">
+        <img id="boxers2_1.png" src="game-images/boxers2_1.png" class="boxers2" alt="Boxers 2 Item 1"
+             style="visibility:visible;position:absolute;top:0;left:0;width:100%;height:auto;pointer-events:none;z-index:60;">
+      </div>
+      <div class="char-wrap" id="char3" data-char="3" data-gender="girl">
+        <img class="base-img" id="base3" src="game-images/base3.png" alt="Character 3">
+        <button class="belly-btn" data-char="3"></button>
+        <!-- Default visible items for girl: topunderwear + bottomunderwear -->
+        <img id="bottomunderwear3_1.png" src="game-images/bottomunderwear3_1.png" class="bottomunderwear3" alt="Bottom Underwear 3 Item 1"
+             style="visibility:visible;position:absolute;top:0;left:0;width:100%;height:auto;pointer-events:none;z-index:30;">
+        <img id="topunderwear3_1.png" src="game-images/topunderwear3_1.png" class="topunderwear3" alt="Top Underwear 3 Item 1"
+             style="visibility:visible;position:absolute;top:0;left:0;width:100%;height:auto;pointer-events:none;z-index:40;">
+      </div>
+    </div>
+
+    <div class="toolbar">
+      <button id="wind-button">🌬 Wind</button>
+    </div>
+
+    <div class="controls">
+      <div class="scroll-bar" id="presetScrollBar"></div>
+      <div class="scroll-bar" id="categoryScrollBar"></div>
+      <div class="scrollable-buttons"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="defaults.js"></script>
+  <script src="preset.js"></script>
+  <script src="scrolls.js"></script>
+  <script src="toys.js"></script>
+</body>
+</html>

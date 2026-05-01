@@ -1,0 +1,62 @@
+[
+    {
+        "id": "pants2-item1",
+        "src": "game-images/pants2_1.png",
+        "alt": "Pants 1 Item 1",
+        "visibility": "hidden"
+    },
+    {
+        "id": "pants2-item2",
+        "src": "game-images/pants2_2.png",
+        "alt": "Pants 1 Item 2",
+        "visibility": "hidden"
+    },
+    {
+        "id": "pants2-item3",
+        "src": "game-images/pants2_3.png",
+        "alt": "Pants 1 Item 3",
+        "visibility": "hidden"
+    },
+    {
+        "id": "pants2-item4",
+        "src": "game-images/pants2_4.png",
+        "alt": "Pants 1 Item 4",
+        "visibility": "hidden"
+    },
+    {
+        "id": "pants2-item5",
+        "src": "game-images/pants2_5.png",
+        "alt": "Pants 1 Item 5",
+        "visibility": "hidden"
+    },
+    {
+        "id": "pants2-item6",
+        "src": "game-images/pants2_6.png",
+        "alt": "Pants 1 Item 6",
+        "visibility": "hidden"
+    },
+    {
+        "id": "pants2-item7",
+        "src": "game-images/pants2_7.png",
+        "alt": "Pants 1 Item 7",
+        "visibility": "hidden"
+    },
+    {
+        "id": "pants2-item8",
+        "src": "game-images/pants2_8.png",
+        "alt": "Pants 1 Item 8",
+        "visibility": "hidden"
+    },
+    {
+        "id": "pants2-item9",
+        "src": "game-images/pants2_9.png",
+        "alt": "Pants 1 Item 9",
+        "visibility": "hidden"
+    },
+    {
+        "id": "pants2-item10",
+        "src": "game-images/pants2_10.png",
+        "alt": "Pants 1 Item 10",
+        "visibility": "hidden"
+    }
+]

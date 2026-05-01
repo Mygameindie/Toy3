@@ -1,0 +1,12 @@
+[
+    {"id": "skirt3_1w",  "src": "game-images/skirt3_1w.png",  "alt": "Skirt 1 Item 1 Wind",  "visibility": "hidden"},
+    {"id": "skirt3_2w",  "src": "game-images/skirt3_2w.png",  "alt": "Skirt 1 Item 2 Wind",  "visibility": "hidden"},
+    {"id": "skirt3_3w",  "src": "game-images/skirt3_3w.png",  "alt": "Skirt 1 Item 3 Wind",  "visibility": "hidden"},
+    {"id": "skirt3_4w",  "src": "game-images/skirt3_4w.png",  "alt": "Skirt 1 Item 4 Wind",  "visibility": "hidden"},
+    {"id": "skirt3_5w",  "src": "game-images/skirt3_5w.png",  "alt": "Skirt 1 Item 5 Wind",  "visibility": "hidden"},
+    {"id": "skirt3_6w",  "src": "game-images/skirt3_6w.png",  "alt": "Skirt 1 Item 6 Wind",  "visibility": "hidden"},
+    {"id": "skirt3_7w",  "src": "game-images/skirt3_7w.png",  "alt": "Skirt 1 Item 7 Wind",  "visibility": "hidden"},
+    {"id": "skirt3_8w",  "src": "game-images/skirt3_8w.png",  "alt": "Skirt 1 Item 8 Wind",  "visibility": "hidden"},
+    {"id": "skirt3_9w",  "src": "game-images/skirt3_9w.png",  "alt": "Skirt 1 Item 9 Wind",  "visibility": "hidden"},
+    {"id": "skirt3_10w", "src": "game-images/skirt3_10w.png", "alt": "Skirt 1 Item 10 Wind", "visibility": "hidden"}
+]
